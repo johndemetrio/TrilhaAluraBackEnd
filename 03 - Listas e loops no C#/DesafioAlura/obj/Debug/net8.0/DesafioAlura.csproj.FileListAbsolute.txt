@@ -1,0 +1,15 @@
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\bin\Debug\net8.0\DesafioAlura.exe
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\bin\Debug\net8.0\DesafioAlura.deps.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\bin\Debug\net8.0\DesafioAlura.runtimeconfig.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\bin\Debug\net8.0\DesafioAlura.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\bin\Debug\net8.0\DesafioAlura.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.AssemblyInfoInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.AssemblyInfo.cs
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.csproj.CoreCompileInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.sourcelink.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\refint\DesafioAlura.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\DesafioAlura.genruntimeconfig.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\03 - Listas e loops no C#\DesafioAlura\obj\Debug\net8.0\ref\DesafioAlura.dll
