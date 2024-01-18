@@ -1,0 +1,15 @@
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\bin\Debug\net8.0\Arrays.exe
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\bin\Debug\net8.0\Arrays.deps.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\bin\Debug\net8.0\Arrays.runtimeconfig.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\bin\Debug\net8.0\Arrays.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\bin\Debug\net8.0\Arrays.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfoInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.AssemblyInfo.cs
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.sourcelink.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\refint\Arrays.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\Arrays.genruntimeconfig.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# Trabalhando com Arrays e Coleções\Arrays\obj\Debug\net8.0\ref\Arrays.dll
