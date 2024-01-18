@@ -58,7 +58,7 @@ amostra.SetValue(1.8,2);
 amostra.SetValue(7.1,3);
 amostra.SetValue(6.9,4);
 
-TestaMediana(amostra);
+// TestaMediana(amostra);
 
 void TestaMediana(Array array)
 {
