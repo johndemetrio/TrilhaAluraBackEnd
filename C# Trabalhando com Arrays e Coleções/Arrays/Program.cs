@@ -75,3 +75,7 @@ void TestaMediana(Array array)
     double mediana = (tamanho % 2!=0) ?numerosOrdenados[meio]: (numerosOrdenados[meio] + numerosOrdenados[meio - 1]) / 2;
     System.Console.WriteLine($"O valor da mediana é {mediana}");
 }
+
+void TestaLista{
+    
+}
