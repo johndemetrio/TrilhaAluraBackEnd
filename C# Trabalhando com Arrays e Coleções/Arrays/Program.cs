@@ -76,6 +76,35 @@ void TestaMediana(Array array)
     System.Console.WriteLine($"O valor da mediana é {mediana}");
 }
 
-void TestaLista{
-    
+List<string> nomesDosEscolhidos = new List<string>()
+{
+    "Bruce Wayne",
+    "Carlos Vilagran",
+    "Richard Grayson",
+    "Bob Kane",
+    "Will Farrel",
+    "Lois Lane",
+    "General Welling",
+    "Perla Letícia",
+    "Uxas",
+    "Diana Prince",
+    "Elisabeth Romanova",
+    "Anakin Wayne"
+};
+
+//minha solução
+string nome = "Anakin Wayne";
+for (int i = 0; i < nomesDosEscolhidos.Count; i++)
+{
+    if (nomesDosEscolhidos[i] == nome)
+    {
+        Console.WriteLine("achou");
+    }
 }
+
+//solução do professor
+void verificaNome(List<string> nomesDosEscolhidos, string nome)
+{
+    Console.WriteLine($"{nomesDosEscolhidos.Contains(nome)}");
+}
+verificaNome(nomesDosEscolhidos, nome);
