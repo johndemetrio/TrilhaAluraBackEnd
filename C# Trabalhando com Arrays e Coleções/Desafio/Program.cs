@@ -3,6 +3,7 @@ string[] posicoes = ["Goleiro","Lateral esquerdo", "Zagueiro", "Zagueiro", "Late
 
 void Menu()
 {
+    Console.Clear();
     Console.WriteLine("======================");
     Console.WriteLine("=== Monte seu time ===");
     Console.WriteLine("======================");
@@ -21,8 +22,12 @@ void Menu()
             break;
         case 3: MostrarTimesCriados();
             break;
+        case 4: System.Console.WriteLine("Encerrando aplicação");
+            Thread.Sleep(2000);
+            break;
         default: Console.WriteLine("Opção Inválida. Tente novamente");
             Menu();
+            break;
     }
 }
 
@@ -59,6 +64,22 @@ void ExibirTime(){
             System.Console.WriteLine($"{posicoes[i]}: {jogador}", i++);
         }
     }
+    System.Console.WriteLine("");
+    System.Console.WriteLine("Aperte qualquer tecla para voltar ao menu: ");
+    Console.ReadKey();
+    Menu();
+}
+
+void MostrarTimesCriados(){
+    Console.Clear();
+    System.Console.WriteLine("Lista dos times criados");
+    System.Console.WriteLine("========================");
+    foreach(string time in timesRegistrados.Keys){
+        System.Console.WriteLine(time);
+    }
+    System.Console.WriteLine("");
+    System.Console.WriteLine("Aperte qualquer tecla para voltar ao menu: ");
+    Console.ReadKey();
     Menu();
 }
 Menu();
