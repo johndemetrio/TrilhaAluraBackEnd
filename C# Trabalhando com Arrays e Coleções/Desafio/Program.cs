@@ -1,5 +1,5 @@
 ﻿Dictionary<string, List<string>> timesRegistrados = new Dictionary<string, List<string>>();
-string[] posicoes = ["Goleiro","Lateral esquerdo", "Zagueiro", "Zagueiro", "Lateral Direito", "Meia Direita", "Meia Central", "Meia Esquerda", "Ponta Direita", "Centroavante", "Ponta Esquerda"];
+string[] posicoes = new string[] {"Goleiro","Lateral esquerdo", "Zagueiro", "Zagueiro", "Lateral Direito", "Meia Direita", "Meia Central", "Meia Esquerda", "Ponta Direita", "Centroavante", "Ponta Esquerda"};
 
 void Menu()
 {
