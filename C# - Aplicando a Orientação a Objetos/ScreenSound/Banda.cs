@@ -1,10 +1,10 @@
 class Banda
 {
     public List<Album> albums = new List<Album>();
-    public string Banda { get; set; }
+    public string Nome { get; set; }
 
-    public void AdiconarAlbum(Album album){
-        albuns.Add(album);
+    public void AdicionarAlbum(Album album){
+        albums.Add(album);
     }
 
     public void ExibirDiscografia(){
