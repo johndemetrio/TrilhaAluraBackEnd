@@ -13,19 +13,18 @@ void Menu()
     Console.WriteLine("4 - Sair da aplicação");
     System.Console.WriteLine();
     System.Console.Write("Digite a opção desejada: ");
-    int opcao = int.Parse(Console.ReadLine());
+    string opcao = Console.ReadLine();
     switch (opcao)
     {
-        case 1: CriarTime();
+        case "1": CriarTime();
             break;
-        case 2: ExibirTime();
+        case "2": ExibirTime();
             break;
-        case 3: MostrarTimesCriados();
+        case "3": MostrarTimesCriados();
             break;
-        case 4: System.Console.WriteLine("Encerrando aplicação");
-            Thread.Sleep(2000);
-            break;
+        case "4": break;
         default: Console.WriteLine("Opção Inválida. Tente novamente");
+            Thread.Sleep(2000);
             Menu();
             break;
     }
@@ -50,7 +49,7 @@ void CriarTime(){
         Console.Clear();
     }
     System.Console.WriteLine("Time cadastrado com sucesso!");
-    Menu();
+   Menu();
 }
 
 void ExibirTime(){
@@ -63,6 +62,9 @@ void ExibirTime(){
         {
             System.Console.WriteLine($"{posicoes[i]}: {jogador}", i++);
         }
+    }else{
+        System.Console.WriteLine("Time não encontrado. Tente novamente");
+        Thread.Sleep(1000);
     }
     System.Console.WriteLine("");
     System.Console.WriteLine("Aperte qualquer tecla para voltar ao menu: ");
@@ -77,6 +79,7 @@ void MostrarTimesCriados(){
     foreach(string time in timesRegistrados.Keys){
         System.Console.WriteLine(time);
     }
+    System.Console.WriteLine("========================");
     System.Console.WriteLine("");
     System.Console.WriteLine("Aperte qualquer tecla para voltar ao menu: ");
     Console.ReadKey();
