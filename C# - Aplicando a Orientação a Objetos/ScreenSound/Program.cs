@@ -1,13 +1,13 @@
-﻿Album album = new Album();
-album.Nome = "Camisa 10 joga bola até na chuva";
-Musica musica1 = new Musica();
-musica1.Nome = "Só os loucos sabem";
+﻿Banda queen = new Banda("Queen");
 
-Banda banda = new Banda();
+Album album = new Album("A night at the opera");
+Musica musica1 = new Musica(queen, "Love of my life")
+{
+    Duracao = 213,
+    Disponivel = true,
+};
+
 album.AdicionarMusica(musica1);
 album.ExibirMusicaDoAlbum();
-
-Banda queen = new Banda();
-queen.Nome = "Queen";
 queen.AdicionarAlbum(album);
 queen.ExibirDiscografia();

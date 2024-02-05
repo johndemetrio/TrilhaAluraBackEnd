@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Tipos e funçoes no C#", "02 - Tipos e funçoes no C#", "{E483AD48-ACC7-41C9-9514-002781B0A896}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "02 - Tipos e funçoes no C#\ScreenSound\ScreenSound.csproj", "{40937504-0D68-43A7-A2F1-7E5DB4C29BBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Listas e loops no C#", "03 - Listas e loops no C#", "{49F321C2-A1D9-4276-A416-565977B63609}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioAlura", "03 - Listas e loops no C#\DesafioAlura\DesafioAlura.csproj", "{4499098A-8238-45CC-898E-AF9B864DE882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "03 - Listas e loops no C#\ScreenSound\ScreenSound.csproj", "{FADBB788-1BF7-4246-A219-AD829BDC158E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Dicionários e avaliação de bandas", "04 - Dicionários e avaliação de bandas", "{4976E52A-50CC-418B-8F7D-64F8CBD981A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "04 - Dicionários e avaliação de bandas\ScreenSound\ScreenSound.csproj", "{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# - Aplicando a Orientação a Objetos", "C# - Aplicando a Orientação a Objetos", "{43E2C771-FF3F-4E55-A9B7-19F11CB78566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Podcast", "C# - Aplicando a Orientação a Objetos\Podcast\Podcast.csproj", "{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "C# - Aplicando a Orientação a Objetos\ScreenSound\ScreenSound.csproj", "{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# Trabalhando com Arrays e Coleções", "C# Trabalhando com Arrays e Coleções", "{B963392B-61F8-4E8C-A491-B9F865764371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "C# Trabalhando com Arrays e Coleções\Arrays\Arrays.csproj", "{B853685B-5381-440F-B8A6-6A75FD098B64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio", "C# Trabalhando com Arrays e Coleções\Desafio\Desafio.csproj", "{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScreenSound (1)", "ScreenSound", "{96D4ADF9-D9AD-4191-BBC6-317196B5B89F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Podcast", "02 - Tipos e funçoes no C#\ScreenSound\Podcast\Podcast.csproj", "{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40937504-0D68-43A7-A2F1-7E5DB4C29BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40937504-0D68-43A7-A2F1-7E5DB4C29BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40937504-0D68-43A7-A2F1-7E5DB4C29BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40937504-0D68-43A7-A2F1-7E5DB4C29BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4499098A-8238-45CC-898E-AF9B864DE882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4499098A-8238-45CC-898E-AF9B864DE882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4499098A-8238-45CC-898E-AF9B864DE882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4499098A-8238-45CC-898E-AF9B864DE882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADBB788-1BF7-4246-A219-AD829BDC158E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADBB788-1BF7-4246-A219-AD829BDC158E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADBB788-1BF7-4246-A219-AD829BDC158E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADBB788-1BF7-4246-A219-AD829BDC158E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B853685B-5381-440F-B8A6-6A75FD098B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B853685B-5381-440F-B8A6-6A75FD098B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B853685B-5381-440F-B8A6-6A75FD098B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B853685B-5381-440F-B8A6-6A75FD098B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40937504-0D68-43A7-A2F1-7E5DB4C29BBB} = {E483AD48-ACC7-41C9-9514-002781B0A896}
+		{4499098A-8238-45CC-898E-AF9B864DE882} = {49F321C2-A1D9-4276-A416-565977B63609}
+		{FADBB788-1BF7-4246-A219-AD829BDC158E} = {49F321C2-A1D9-4276-A416-565977B63609}
+		{02ED9BB8-BAD0-4C67-A2A6-607BD6C38A7E} = {4976E52A-50CC-418B-8F7D-64F8CBD981A3}
+		{3EF27A3E-63A9-45B9-84B2-2A8FE2F5BDBE} = {43E2C771-FF3F-4E55-A9B7-19F11CB78566}
+		{D3F93F75-4EEB-44FF-8DC6-0A3B57D95355} = {43E2C771-FF3F-4E55-A9B7-19F11CB78566}
+		{B853685B-5381-440F-B8A6-6A75FD098B64} = {B963392B-61F8-4E8C-A491-B9F865764371}
+		{462255C0-1E5C-45EE-BDB1-DE70DD8D63E3} = {B963392B-61F8-4E8C-A491-B9F865764371}
+		{96D4ADF9-D9AD-4191-BBC6-317196B5B89F} = {E483AD48-ACC7-41C9-9514-002781B0A896}
+		{55DFEE98-F90C-4BEE-A6CE-45F6FE3375B0} = {96D4ADF9-D9AD-4191-BBC6-317196B5B89F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CC4AEF0-C53D-4157-8A91-E78841C5616E}
+	EndGlobalSection
+EndGlobal

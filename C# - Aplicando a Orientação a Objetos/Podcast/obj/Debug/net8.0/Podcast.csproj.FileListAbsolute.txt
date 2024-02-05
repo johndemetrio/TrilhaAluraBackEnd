@@ -1,0 +1,15 @@
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\bin\Debug\net8.0\Podcast.exe
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\bin\Debug\net8.0\Podcast.deps.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\bin\Debug\net8.0\Podcast.runtimeconfig.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\bin\Debug\net8.0\Podcast.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\bin\Debug\net8.0\Podcast.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.AssemblyInfoInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.AssemblyInfo.cs
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.csproj.CoreCompileInputs.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.sourcelink.json
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\refint\Podcast.dll
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.pdb
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\Podcast.genruntimeconfig.cache
+C:\Users\JohnWesleyDemétrioCo\TrilhaAluraBackEnd\C# - Aplicando a Orientação a Objetos\Podcast\obj\Debug\net8.0\ref\Podcast.dll
