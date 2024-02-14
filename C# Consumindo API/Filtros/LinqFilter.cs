@@ -30,5 +30,18 @@ namespace C__Consumindo_API.Filtros
                 System.Console.WriteLine($"-> {musica.Nome}");
             }
         }
+
+        internal static void FiltrarMusicasEmCSharp(List<Musica> musicas)
+        {
+            var musicasEmCSharp = musicas
+            .Where(musica => musica.Tonalidade.Equals("C#"))
+            .Select(musica => musica.Nome)
+            .ToList();
+            System.Console.WriteLine("Musicas em C#: ");
+            foreach (var musica in musicasEmCSharp)
+            {
+                System.Console.WriteLine($"-> {musica}");
+            }
+        }
     }
 }
