@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desafio_2.Modelos
 {
-    public class Driver
+    public class Piloto
     {
         [JsonPropertyName("driverId")]
         public string? DriverId { get; set; }
@@ -35,7 +35,7 @@ namespace Desafio_2.Modelos
             System.Console.WriteLine($"Nacionalidade: {Nationality}");
             System.Console.WriteLine($"Biografia no Wikipedia: {Url}");
         }
-        public void SearchByDriverId(List<Driver> Drivers)
+        public void SearchByDriverId(List<Piloto> Pilotos)
         {
             
         }
