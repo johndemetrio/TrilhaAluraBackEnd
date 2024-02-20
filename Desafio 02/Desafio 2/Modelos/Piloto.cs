@@ -28,16 +28,12 @@ namespace Desafio_2.Modelos
         [JsonPropertyName("nationality")]
         public string? Nationality { get; set; }
 
-        public void ShowDriverInformation()
+        public void ExibirInformacoesDoPiloto()
         {
             System.Console.WriteLine($"Nome: {GivenName + FamilyName}");
             System.Console.WriteLine($"Abreviação e número do carro: {Code} | {PermanentNumber}");
             System.Console.WriteLine($"Nacionalidade: {Nationality}");
             System.Console.WriteLine($"Biografia no Wikipedia: {Url}");
-        }
-        public void SearchByDriverId(List<Piloto> Pilotos)
-        {
-            
         }
     }
 }

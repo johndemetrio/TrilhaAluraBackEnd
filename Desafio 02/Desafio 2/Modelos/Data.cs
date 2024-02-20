@@ -18,6 +18,7 @@ public class MRData
     public SeasonTable SeasonTable {get;set;}
     [JsonPropertyName("RaceTable")]
     public RaceTable RaceTable {get;set;}
+    public StandingsTable StandingsTable {get;set;}
 }
 
 
@@ -34,12 +35,27 @@ public class SeasonTable
 {
     [JsonPropertyName("Seasons")]
     public List<Temporada> Temporadas {get;set;}
+    [JsonPropertyName("season")]
+    public string? AnoDaTemporada{get;set;}
 }
 
 public class RaceTable
 {
     [JsonPropertyName("season")]
-    public string? Temporada{get;set;}
+    public string? AnoDaTemporada{get;set;}
     [JsonPropertyName("Races")]
-    public List<Corrida> Corrida{get; set;}
+    public List<Corrida> Corridas{get; set;}
+}
+
+public class StandingsTable
+{
+    [JsonPropertyName("season")]
+    public string? AnoDaTemporada{get;set;}
+    public List<StandingsLists> StandingsLists {get;set;}
+}
+
+public class StandingsLists
+{
+    [JsonPropertyName("DriverStandings")]
+    public List<ClassificacaoPiloto> ClassificacaoPilotos { get; set; }
 }

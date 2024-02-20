@@ -1,13 +1,13 @@
 ﻿using System.Text.Json;
+using Desafio_2.Modelos;
 
-ObjetoJson data = new ObjetoJson();
-using (HttpClient client = new HttpClient())
+Filtros Filtro = new Filtros();
+void VoltarMenu()
 {
-    //string parametro = Console.ReadLine();
-    string response = await client.GetStringAsync($"https://ergast.com/api/f1/seasons.json?limit=75");
-    data = JsonSerializer.Deserialize<ObjetoJson>(response)!;
+    System.Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
+    Console.ReadKey();
+    Menu();
 }
-Menu();
 void Menu()
 {
     ///Console.Clear();
@@ -22,22 +22,25 @@ void Menu()
     switch (opcao)
     {
         case "1":
-            for (int i = 0; i < 75; i++)
-            {
-                data.MRData.SeasonTable.Temporadas[i].MostrarTemporada();
-            }
+            Filtro.ExibirTemporadas().Wait();
+            VoltarMenu();
+            //Menu();
             break;
         case "2":
-            
+            Filtro.ExibirCalendario().Wait();
+            VoltarMenu();
             break;
         case "3":
-            
+            Filtro.ExibirCalendarioAtual().Wait();
+            VoltarMenu();
             break;
         case "4":
-            
+            Filtro.ExibirPilotos().Wait();
+            VoltarMenu();
             break;
         case "5":
             
+            VoltarMenu();
             break;
         case "6":
             Console.Clear();
@@ -46,6 +49,8 @@ void Menu()
             break;
         default:
             System.Console.WriteLine("Opçao incorreta. Digite novamente");
+            VoltarMenu();
             break;
     }
 }
+Menu();
