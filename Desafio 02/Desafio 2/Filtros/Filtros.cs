@@ -24,9 +24,9 @@ namespace Desafio_2.Modelos
                     {
                         string response = await client.GetStringAsync($"https://ergast.com/api/f1/{AnoDaTemporada}/driverStandings.json");
                         data = JsonSerializer.Deserialize<ObjetoJson>(response)!;
-                        foreach(var temporada in data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos){
-                            temporada.ExibirClassificacao();
-                            data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos[0].Piloto.ExibirInformacoesDoPiloto();
+                        //data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos[0].ExibirClassificacao();
+                        foreach(var corrida in data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos){
+                            corrida.ExibirClassificacao();
                         }
                     }
                     break;

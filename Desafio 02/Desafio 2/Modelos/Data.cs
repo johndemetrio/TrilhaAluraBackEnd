@@ -51,6 +51,7 @@ public class StandingsTable
 {
     [JsonPropertyName("season")]
     public string? AnoDaTemporada{get;set;}
+    [JsonPropertyName("StandingsLists")]
     public List<StandingsLists> StandingsLists {get;set;}
 }
 
