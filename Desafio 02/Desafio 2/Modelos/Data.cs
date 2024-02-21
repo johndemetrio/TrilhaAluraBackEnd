@@ -11,14 +11,11 @@ public class ObjetoJson
 
 public class MRData
 {
-    [JsonPropertyName("DriverTable")]
     public DriverTable? DriverTable { get; set; }
-
-    [JsonPropertyName("SeasonTable")]
     public SeasonTable? SeasonTable {get;set;}
-    [JsonPropertyName("RaceTable")]
     public RaceTable? RaceTable {get;set;}
     public StandingsTable? StandingsTable {get;set;}
+    public ConstructorTable? ConstructorTable {get; set;}
 }
 
 
@@ -59,4 +56,9 @@ public class StandingsLists
 {
     [JsonPropertyName("DriverStandings")]
     public List<ClassificacaoPiloto>? ClassificacaoPilotos { get; set; }
+}
+
+public class ConstructorTable
+{
+    public List<Constructors>? Constructors {get; set;}
 }

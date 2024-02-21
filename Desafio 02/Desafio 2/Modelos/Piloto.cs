@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Desafio_2.Modelos
 {
-    public class Piloto
+    public interface IPiloto
+    {
+        void ExibirInformacoesDoPiloto();
+    }
+    public class Piloto : IPiloto
     {
         [JsonPropertyName("driverId")]
         public string? DriverId { get; set; }
-
-        [JsonPropertyName("permanentNumber")]
-        public string? PermanentNumber { get; set; }
-
-        [JsonPropertyName("code")]
-        public string? Code { get; set; }
 
         [JsonPropertyName("url")]
         public string? Url { get; set; }
@@ -30,8 +28,7 @@ namespace Desafio_2.Modelos
 
         public void ExibirInformacoesDoPiloto()
         {
-            System.Console.WriteLine($"Nome: {GivenName + FamilyName}");
-            System.Console.WriteLine($"Abreviação e número do carro: {Code} | {PermanentNumber}");
+            System.Console.WriteLine($"Nome: {GivenName} {FamilyName}");
             System.Console.WriteLine($"Nacionalidade: {Nationality}");
             System.Console.WriteLine($"Biografia no Wikipedia: {Url}");
         }

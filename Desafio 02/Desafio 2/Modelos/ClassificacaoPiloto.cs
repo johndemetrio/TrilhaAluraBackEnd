@@ -2,7 +2,11 @@ using System.Text.Json.Serialization;
 
 namespace Desafio_2.Modelos
 {
-    public class ClassificacaoPiloto
+    public interface IClassificacaoPiloto
+    {
+        void ExibirClassificacao();
+    }
+    public class ClassificacaoPiloto : IClassificacaoPiloto
     {
         [JsonPropertyName("position")]
         public string? Posicao { get; set; }
@@ -19,7 +23,7 @@ namespace Desafio_2.Modelos
             System.Console.WriteLine($"Posição no campeonato: {Posicao}º");
             System.Console.WriteLine($"Pontos: {Pontos}");
             System.Console.WriteLine($"Vitórias: {Vitorias}");
-            System.Console.WriteLine($"Nome: {Piloto!.GivenName} {Piloto.FamilyName}");
+            System.Console.WriteLine($"Nome: {Piloto.GivenName} {Piloto.FamilyName}");
             System.Console.WriteLine($"Nacionalidade: {Piloto.Nationality}");
             System.Console.WriteLine("");
         }

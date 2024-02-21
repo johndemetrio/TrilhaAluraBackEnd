@@ -1,56 +1,57 @@
-﻿using System.Text.Json;
-using Desafio_2.Modelos;
+﻿using Desafio_2.Modelos;
 
-Filtros Filtro = new Filtros();
+Excecoes excecoes = new Excecoes();
+Servicos Servico = new Servicos(excecoes);
 void VoltarMenu()
 {
     System.Console.WriteLine("Pressione qualquer tecla para voltar ao menu");
     Console.ReadKey();
+    System.Console.WriteLine("");
     Menu();
 }
 void Menu()
 {
-    ///Console.Clear();
+    Console.Clear();
     System.Console.WriteLine("1 -> Lista de Temporadas");
     System.Console.WriteLine("2 -> Calendário de corridas");
-    System.Console.WriteLine("3 -> Temporada atual");
-    System.Console.WriteLine("4 -> Pilotos");
-    System.Console.WriteLine("5 -> Equipes");
-    System.Console.WriteLine("6 -> Sair da aplicação");
+    System.Console.WriteLine("3 -> Pilotos");
+    System.Console.WriteLine("4 -> Equipes");
+    System.Console.WriteLine("5 -> Sair da aplicação");
+    System.Console.WriteLine("");
     System.Console.Write("Digite a opção desejada: ");
     string opcao = Console.ReadLine()!;
     switch (opcao)
     {
         case "1":
-            Filtro.ExibirTemporadas().Wait();
+            Servico.ExibirTemporadas().Wait();
             VoltarMenu();
-            //Menu();
-            break;
+        break;
+
         case "2":
-            Filtro.ExibirCalendario().Wait();
+            Servico.ExibirCalendario().Wait();
             VoltarMenu();
-            break;
+        break;
+
         case "3":
-            Filtro.ExibirCalendarioAtual().Wait();
+            Servico.ExibirPilotos().Wait();
             VoltarMenu();
-            break;
+        break;
+
         case "4":
-            Filtro.ExibirPilotos().Wait();
+            Servico.ExibirConstrutores().Wait();
             VoltarMenu();
-            break;
+        break;
+
         case "5":
-            
-            VoltarMenu();
-            break;
-        case "6":
             Console.Clear();
             System.Console.WriteLine("Pressione qualquer tecla para sair da aplicação");
             Console.ReadKey();
-            break;
+        break;
+
         default:
-            System.Console.WriteLine("Opçao incorreta. Digite novamente");
+            System.Console.WriteLine("Opção Inválida. Digite novamente");
             VoltarMenu();
-            break;
+        break;
     }
 }
 Menu();
