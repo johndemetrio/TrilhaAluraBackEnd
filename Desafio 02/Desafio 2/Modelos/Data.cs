@@ -6,19 +6,19 @@ using Desafio_2.Modelos;
 public class ObjetoJson
 {
     [JsonPropertyName("MRData")]
-    public MRData MRData { get; set; }
+    public MRData? MRData { get; set; }
 }
 
 public class MRData
 {
     [JsonPropertyName("DriverTable")]
-    public DriverTable DriverTable { get; set; }
+    public DriverTable? DriverTable { get; set; }
 
     [JsonPropertyName("SeasonTable")]
-    public SeasonTable SeasonTable {get;set;}
+    public SeasonTable? SeasonTable {get;set;}
     [JsonPropertyName("RaceTable")]
-    public RaceTable RaceTable {get;set;}
-    public StandingsTable StandingsTable {get;set;}
+    public RaceTable? RaceTable {get;set;}
+    public StandingsTable? StandingsTable {get;set;}
 }
 
 
@@ -28,13 +28,13 @@ public class DriverTable
     public string? DriverId { get; set; }
 
     [JsonPropertyName("Drivers")]
-    public List<Piloto> Pilotos { get; set; }
+    public List<Piloto>? Pilotos { get; set; }
 }
 
 public class SeasonTable
 {
     [JsonPropertyName("Seasons")]
-    public List<Temporada> Temporadas {get;set;}
+    public List<Temporada>? Temporadas {get;set;}
     [JsonPropertyName("season")]
     public string? AnoDaTemporada{get;set;}
 }
@@ -44,7 +44,7 @@ public class RaceTable
     [JsonPropertyName("season")]
     public string? AnoDaTemporada{get;set;}
     [JsonPropertyName("Races")]
-    public List<Corrida> Corridas{get; set;}
+    public List<Corrida>? Corridas{get; set;}
 }
 
 public class StandingsTable
@@ -52,11 +52,11 @@ public class StandingsTable
     [JsonPropertyName("season")]
     public string? AnoDaTemporada{get;set;}
     [JsonPropertyName("StandingsLists")]
-    public List<StandingsLists> StandingsLists {get;set;}
+    public List<StandingsLists>? StandingsLists {get;set;}
 }
 
 public class StandingsLists
 {
     [JsonPropertyName("DriverStandings")]
-    public List<ClassificacaoPiloto> ClassificacaoPilotos { get; set; }
+    public List<ClassificacaoPiloto>? ClassificacaoPilotos { get; set; }
 }

@@ -9,6 +9,16 @@ namespace Desafio_2.Modelos
 {
     public class Filtros
     {
+        public static async Task<ObjetoJson> GetDataFromUrlAsync(string url)
+        {
+            ObjetoJson data = new ObjetoJson();
+            using (HttpClient client = new HttpClient())
+            {
+                string response = await client.GetStringAsync(url);
+                data = JsonSerializer.Deserialize<ObjetoJson>(response)!;
+            }
+            return data;
+        }
         public async Task<ObjetoJson> ExibirTemporadas()
         {
             ObjetoJson data = new ObjetoJson();
@@ -20,27 +30,19 @@ namespace Desafio_2.Modelos
                 case 1:
                     System.Console.Write("Digite o ano da temporada:");
                     string AnoDaTemporada = Console.ReadLine()!;
-                    using (HttpClient client = new HttpClient())
-                    {
-                        string response = await client.GetStringAsync($"https://ergast.com/api/f1/{AnoDaTemporada}/driverStandings.json");
-                        data = JsonSerializer.Deserialize<ObjetoJson>(response)!;
-                        //data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos[0].ExibirClassificacao();
-                        foreach(var corrida in data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos){
-                            corrida.ExibirClassificacao();
-                        }
+                    data = GetDataFromUrlAsync($"https://ergast.com/api/f1/{AnoDaTemporada}/driverStandings.json").Result;
+                    //data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos[0].ExibirClassificacao();
+                    foreach(var corrida in data.MRData.StandingsTable.StandingsLists[0].ClassificacaoPilotos){
+                        corrida.ExibirClassificacao();
                     }
                     break;
                 
                 case 2:
-                    using (HttpClient client = new HttpClient())
+                    data = GetDataFromUrlAsync($"https://ergast.com/api/f1/seasons.json?limit=75").Result;
+                    foreach(var temporada in data.MRData.SeasonTable.Temporadas)
                     {
-                        string response = await client.GetStringAsync($"https://ergast.com/api/f1/seasons.json?limit=75");
-                        data = JsonSerializer.Deserialize<ObjetoJson>(response)!;
-                        foreach(var temporada in data.MRData.SeasonTable.Temporadas)
-                        {
-                            temporada.MostrarTemporada();
-                            System.Console.WriteLine("");
-                        }
+                        temporada.MostrarTemporada();
+                        System.Console.WriteLine("");
                     }
                     break;
             }
